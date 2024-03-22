@@ -1067,6 +1067,14 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
         var fileID = "";
         var row = new Array();
         var cell = new Array();
+        
+        row  = tab.insertRow(-1);
+        cell[0] = row.insertCell(-1);
+        cell[1] = row.insertCell(-1);
+        cell[2] = row.insertCell(-1);
+        cell[3] = row.insertCell(-1);
+        cell[3].innerHTML = this.TestConfig.Testsets[TestIdx].Subtitle;
+
             
         // add reference
         fileID = "Reference";
@@ -1075,6 +1083,7 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
         cell[0].innerHTML = "<span class='testItem'>Reference</span>";
         cell[1] = row.insertCell(-1);
         cell[1].innerHTML =  '<button id="play'+fileID+'Btn" class="playButton" rel="'+fileID+'">Play</button>';
+        // cell[1] = "<span class='testItem'>Level</span>";
         cell[2] = row.insertCell(-1);
         cell[2].innerHTML = "<button class='stopButton'>Stop</button>";  	
         cell[3] = row.insertCell(-1);
@@ -1085,7 +1094,7 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
         // add spacing
         row = tab.insertRow(-1);
         row.setAttribute("height","5"); 
-
+        
         var rateMin = this.TestConfig.RateMinValue;
         var rateMax = this.TestConfig.RateMaxValue;
             
@@ -1095,13 +1104,15 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
             var fileID = this.TestState.FileMappings[TestIdx][i];
             var relID  = "";
             if (fileID === "Reference")
+            {
                 relID = "HiddenRef";
+            }
             else
                 relID = fileID;
 
             row[i]  = tab.insertRow(-1);
             cell[0] = row[i].insertCell(-1);
-            cell[0].innerHTML = "<span class='testItem'>Test Item "+ (i+1)+"</span>";
+            cell[0].innerHTML = "<span class='testItem'>Test Item "+(i+1)+"</span>";
             cell[1] = row[i].insertCell(-1);
             cell[1].innerHTML =  '<button id="play'+relID+'Btn" class="playButton" rel="'+relID+'">Play</button>';
             cell[2] = row[i].insertCell(-1);
