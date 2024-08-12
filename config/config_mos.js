@@ -13,348 +13,268 @@ var TestConfig = {
     "BeaqleServiceURL": "./web_service/beaqleJS_Service.php",
     "SupervisorContact": "",
     "RandomizeTestOrder": true,
-    "MaxTestsPerRun": 5,
+    "MaxTestsPerRun": 15,
     "RequireMaxRating": false,
     "AudioRoot": "",
     "Testsets": [
         {
-            "Name": "1US4jjWtua8_00004; \u5bf9\u5e94\u6587\u672c: it's not optional",
+            "Name": "BHY0FxzoKZE_00002; \u5bf9\u5e94\u6587\u672c: Text:  I TRIED EVERYTHING",
             "TestID": "mos\u6d4b\u8bd5_1",
-            "Subtitle": "it's not optional",
+            "Subtitle": "Text:  I TRIED EVERYTHING",
             "Files": {
-                "433h_bigvgan": "audio/1US4jjWtua8_00004/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/1US4jjWtua8_00004/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/1US4jjWtua8_00004/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/1US4jjWtua8_00004/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/1US4jjWtua8_00004/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/1US4jjWtua8_00004/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/1US4jjWtua8_00004/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/1US4jjWtua8_00004/griffin_lim.wav",
-                "Reference": "audio/1US4jjWtua8_00004/gt.wav",
-                "30h_revise": "audio/1US4jjWtua8_00004/revise0203largeavhb-test_hifigan.wav"
+                "revise_vc": "audio/BHY0FxzoKZE_00002/revise_vc.mp3",
+                "divise_gf": "audio/BHY0FxzoKZE_00002/divise_gf.mp3",
+                "hifigan_vc": "audio/BHY0FxzoKZE_00002/hifigan_vc.mp3",
+                "divise_vc": "audio/BHY0FxzoKZE_00002/divise_vc.mp3",
+                "unit_hifigan_vc": "audio/BHY0FxzoKZE_00002/unit_hifigan_vc.mp3",
+                "Reference": "audio/BHY0FxzoKZE_00002/gt.mp3"
             }
         },
         {
-            "Name": "6ra1MIKlYB0_00002; \u5bf9\u5e94\u6587\u672c: how are you",
+            "Name": "ZnCSUBmeRxw_00006; \u5bf9\u5e94\u6587\u672c: Text:  AND THAT'S EXACTLY WHAT THAT IS",
             "TestID": "mos\u6d4b\u8bd5_2",
-            "Subtitle": "how are you",
+            "Subtitle": "Text:  AND THAT'S EXACTLY WHAT THAT IS",
             "Files": {
-                "433h_bigvgan": "audio/6ra1MIKlYB0_00002/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/6ra1MIKlYB0_00002/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/6ra1MIKlYB0_00002/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/6ra1MIKlYB0_00002/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/6ra1MIKlYB0_00002/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/6ra1MIKlYB0_00002/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/6ra1MIKlYB0_00002/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/6ra1MIKlYB0_00002/griffin_lim.wav",
-                "Reference": "audio/6ra1MIKlYB0_00002/gt.wav",
-                "30h_revise": "audio/6ra1MIKlYB0_00002/revise0203largeavhb-test_hifigan.wav"
+                "unit_hifigan_vc": "audio/ZnCSUBmeRxw_00006/unit_hifigan_vc.mp3",
+                "divise_vc": "audio/ZnCSUBmeRxw_00006/divise_vc.mp3",
+                "hifigan_vc": "audio/ZnCSUBmeRxw_00006/hifigan_vc.mp3",
+                "divise_gf": "audio/ZnCSUBmeRxw_00006/divise_gf.mp3",
+                "revise_vc": "audio/ZnCSUBmeRxw_00006/revise_vc.mp3",
+                "Reference": "audio/ZnCSUBmeRxw_00006/gt.mp3"
             }
         },
         {
-            "Name": "7qT3RpaBlJo_00002; \u5bf9\u5e94\u6587\u672c: one you need to know where you are and exactly what time it is",
+            "Name": "x95nwilkaio_00003; \u5bf9\u5e94\u6587\u672c: Text:  THIS IS JUST ONE FACE OF A BOOMING SEX TRADE ACROSS THE ARAB REGION",
             "TestID": "mos\u6d4b\u8bd5_3",
-            "Subtitle": "one you need to know where you are and exactly what time it is",
+            "Subtitle": "Text:  THIS IS JUST ONE FACE OF A BOOMING SEX TRADE ACROSS THE ARAB REGION",
             "Files": {
-                "433h_bigvgan": "audio/7qT3RpaBlJo_00002/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/7qT3RpaBlJo_00002/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/7qT3RpaBlJo_00002/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/7qT3RpaBlJo_00002/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/7qT3RpaBlJo_00002/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/7qT3RpaBlJo_00002/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/7qT3RpaBlJo_00002/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/7qT3RpaBlJo_00002/griffin_lim.wav",
-                "Reference": "audio/7qT3RpaBlJo_00002/gt.wav",
-                "30h_revise": "audio/7qT3RpaBlJo_00002/revise0203largeavhb-test_hifigan.wav"
+                "revise_vc": "audio/x95nwilkaio_00003/revise_vc.mp3",
+                "divise_gf": "audio/x95nwilkaio_00003/divise_gf.mp3",
+                "hifigan_vc": "audio/x95nwilkaio_00003/hifigan_vc.mp3",
+                "unit_hifigan_vc": "audio/x95nwilkaio_00003/unit_hifigan_vc.mp3",
+                "divise_vc": "audio/x95nwilkaio_00003/divise_vc.mp3",
+                "Reference": "audio/x95nwilkaio_00003/gt.mp3"
             }
         },
         {
-            "Name": "BHY0FxzoKZE_00002; \u5bf9\u5e94\u6587\u672c: i tried everything",
+            "Name": "RAR4cz9wkUk_00002; \u5bf9\u5e94\u6587\u672c: Text:  I WOULD JUST GIVE THE INSPIRATION AND THAT'S MY JOB",
             "TestID": "mos\u6d4b\u8bd5_4",
-            "Subtitle": "i tried everything",
+            "Subtitle": "Text:  I WOULD JUST GIVE THE INSPIRATION AND THAT'S MY JOB",
             "Files": {
-                "433h_bigvgan": "audio/BHY0FxzoKZE_00002/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/BHY0FxzoKZE_00002/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/BHY0FxzoKZE_00002/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/BHY0FxzoKZE_00002/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/BHY0FxzoKZE_00002/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/BHY0FxzoKZE_00002/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/BHY0FxzoKZE_00002/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/BHY0FxzoKZE_00002/griffin_lim.wav",
-                "Reference": "audio/BHY0FxzoKZE_00002/gt.wav",
-                "30h_revise": "audio/BHY0FxzoKZE_00002/revise0203largeavhb-test_hifigan.wav"
+                "unit_hifigan_vc": "audio/RAR4cz9wkUk_00002/unit_hifigan_vc.mp3",
+                "hifigan_vc": "audio/RAR4cz9wkUk_00002/hifigan_vc.mp3",
+                "divise_vc": "audio/RAR4cz9wkUk_00002/divise_vc.mp3",
+                "divise_gf": "audio/RAR4cz9wkUk_00002/divise_gf.mp3",
+                "revise_vc": "audio/RAR4cz9wkUk_00002/revise_vc.mp3",
+                "Reference": "audio/RAR4cz9wkUk_00002/gt.mp3"
             }
         },
         {
-            "Name": "fxbCHn6gE3U_00005; \u5bf9\u5e94\u6587\u672c: so people hear about this study and they're like great if i want to get better at my job i just need to upgrade my browser",
+            "Name": "vGX3FASrQq4_00001; \u5bf9\u5e94\u6587\u672c: Text:  THANK YOU VERY MUCH",
             "TestID": "mos\u6d4b\u8bd5_5",
-            "Subtitle": "so people hear about this study and they're like great if i want to get better at my job i just need to upgrade my browser",
+            "Subtitle": "Text:  THANK YOU VERY MUCH",
             "Files": {
-                "433h_bigvgan": "audio/fxbCHn6gE3U_00005/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/fxbCHn6gE3U_00005/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/fxbCHn6gE3U_00005/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/fxbCHn6gE3U_00005/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/fxbCHn6gE3U_00005/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/fxbCHn6gE3U_00005/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/fxbCHn6gE3U_00005/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/fxbCHn6gE3U_00005/griffin_lim.wav",
-                "Reference": "audio/fxbCHn6gE3U_00005/gt.wav",
-                "30h_revise": "audio/fxbCHn6gE3U_00005/revise0203largeavhb-test_hifigan.wav"
+                "divise_vc": "audio/vGX3FASrQq4_00001/divise_vc.mp3",
+                "unit_hifigan_vc": "audio/vGX3FASrQq4_00001/unit_hifigan_vc.mp3",
+                "hifigan_vc": "audio/vGX3FASrQq4_00001/hifigan_vc.mp3",
+                "divise_gf": "audio/vGX3FASrQq4_00001/divise_gf.mp3",
+                "revise_vc": "audio/vGX3FASrQq4_00001/revise_vc.mp3",
+                "Reference": "audio/vGX3FASrQq4_00001/gt.mp3"
             }
         },
         {
-            "Name": "HD4bpztESWw_00001; \u5bf9\u5e94\u6587\u672c: we're on the grid",
+            "Name": "HD4bpztESWw_00001; \u5bf9\u5e94\u6587\u672c: Text:  WE'RE ON THE GRID",
             "TestID": "mos\u6d4b\u8bd5_6",
-            "Subtitle": "we're on the grid",
+            "Subtitle": "Text:  WE'RE ON THE GRID",
             "Files": {
-                "433h_bigvgan": "audio/HD4bpztESWw_00001/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/HD4bpztESWw_00001/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/HD4bpztESWw_00001/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/HD4bpztESWw_00001/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/HD4bpztESWw_00001/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/HD4bpztESWw_00001/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/HD4bpztESWw_00001/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/HD4bpztESWw_00001/griffin_lim.wav",
-                "Reference": "audio/HD4bpztESWw_00001/gt.wav",
-                "30h_revise": "audio/HD4bpztESWw_00001/revise0203largeavhb-test_hifigan.wav"
+                "revise_vc": "audio/HD4bpztESWw_00001/revise_vc.mp3",
+                "divise_gf": "audio/HD4bpztESWw_00001/divise_gf.mp3",
+                "unit_hifigan_vc": "audio/HD4bpztESWw_00001/unit_hifigan_vc.mp3",
+                "divise_vc": "audio/HD4bpztESWw_00001/divise_vc.mp3",
+                "hifigan_vc": "audio/HD4bpztESWw_00001/hifigan_vc.mp3",
+                "Reference": "audio/HD4bpztESWw_00001/gt.mp3"
             }
         },
         {
-            "Name": "J8FyHI00ELY_00002; \u5bf9\u5e94\u6587\u672c: my dad has alzheimer's disease",
+            "Name": "UAj1hsXp18c_00018; \u5bf9\u5e94\u6587\u672c: Text:  ONE WOMAN SHOOTS HER FACE",
             "TestID": "mos\u6d4b\u8bd5_7",
-            "Subtitle": "my dad has alzheimer's disease",
+            "Subtitle": "Text:  ONE WOMAN SHOOTS HER FACE",
             "Files": {
-                "433h_bigvgan": "audio/J8FyHI00ELY_00002/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/J8FyHI00ELY_00002/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/J8FyHI00ELY_00002/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/J8FyHI00ELY_00002/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/J8FyHI00ELY_00002/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/J8FyHI00ELY_00002/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/J8FyHI00ELY_00002/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/J8FyHI00ELY_00002/griffin_lim.wav",
-                "Reference": "audio/J8FyHI00ELY_00002/gt.wav",
-                "30h_revise": "audio/J8FyHI00ELY_00002/revise0203largeavhb-test_hifigan.wav"
+                "divise_vc": "audio/UAj1hsXp18c_00018/divise_vc.mp3",
+                "hifigan_vc": "audio/UAj1hsXp18c_00018/hifigan_vc.mp3",
+                "unit_hifigan_vc": "audio/UAj1hsXp18c_00018/unit_hifigan_vc.mp3",
+                "revise_vc": "audio/UAj1hsXp18c_00018/revise_vc.mp3",
+                "divise_gf": "audio/UAj1hsXp18c_00018/divise_gf.mp3",
+                "Reference": "audio/UAj1hsXp18c_00018/gt.mp3"
             }
         },
         {
-            "Name": "RAR4cz9wkUk_00002; \u5bf9\u5e94\u6587\u672c: i would just give the inspiration and that's my job",
+            "Name": "ZJNESMhIxQ0_00020; \u5bf9\u5e94\u6587\u672c: Text:  THEY'RE JUST WAITING FOR THEIR DAY IN COURT",
             "TestID": "mos\u6d4b\u8bd5_8",
-            "Subtitle": "i would just give the inspiration and that's my job",
+            "Subtitle": "Text:  THEY'RE JUST WAITING FOR THEIR DAY IN COURT",
             "Files": {
-                "433h_bigvgan": "audio/RAR4cz9wkUk_00002/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/RAR4cz9wkUk_00002/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/RAR4cz9wkUk_00002/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/RAR4cz9wkUk_00002/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/RAR4cz9wkUk_00002/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/RAR4cz9wkUk_00002/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/RAR4cz9wkUk_00002/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/RAR4cz9wkUk_00002/griffin_lim.wav",
-                "Reference": "audio/RAR4cz9wkUk_00002/gt.wav",
-                "30h_revise": "audio/RAR4cz9wkUk_00002/revise0203largeavhb-test_hifigan.wav"
+                "unit_hifigan_vc": "audio/ZJNESMhIxQ0_00020/unit_hifigan_vc.mp3",
+                "hifigan_vc": "audio/ZJNESMhIxQ0_00020/hifigan_vc.mp3",
+                "divise_vc": "audio/ZJNESMhIxQ0_00020/divise_vc.mp3",
+                "revise_vc": "audio/ZJNESMhIxQ0_00020/revise_vc.mp3",
+                "divise_gf": "audio/ZJNESMhIxQ0_00020/divise_gf.mp3",
+                "Reference": "audio/ZJNESMhIxQ0_00020/gt.mp3"
             }
         },
         {
-            "Name": "rFpDK2KhAgw_00001; \u5bf9\u5e94\u6587\u672c: they have social meaning",
+            "Name": "ZJNESMhIxQ0_00012; \u5bf9\u5e94\u6587\u672c: Text:  IT WORKED FOR THE OAKLAND A'S AND IT WORKED IN THE STATE OF NEW JERSEY",
             "TestID": "mos\u6d4b\u8bd5_9",
-            "Subtitle": "they have social meaning",
+            "Subtitle": "Text:  IT WORKED FOR THE OAKLAND A'S AND IT WORKED IN THE STATE OF NEW JERSEY",
             "Files": {
-                "433h_bigvgan": "audio/rFpDK2KhAgw_00001/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/rFpDK2KhAgw_00001/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/rFpDK2KhAgw_00001/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/rFpDK2KhAgw_00001/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/rFpDK2KhAgw_00001/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/rFpDK2KhAgw_00001/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/rFpDK2KhAgw_00001/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/rFpDK2KhAgw_00001/griffin_lim.wav",
-                "Reference": "audio/rFpDK2KhAgw_00001/gt.wav",
-                "30h_revise": "audio/rFpDK2KhAgw_00001/revise0203largeavhb-test_hifigan.wav"
+                "divise_gf": "audio/ZJNESMhIxQ0_00012/divise_gf.mp3",
+                "unit_hifigan_vc": "audio/ZJNESMhIxQ0_00012/unit_hifigan_vc.mp3",
+                "revise_vc": "audio/ZJNESMhIxQ0_00012/revise_vc.mp3",
+                "hifigan_vc": "audio/ZJNESMhIxQ0_00012/hifigan_vc.mp3",
+                "divise_vc": "audio/ZJNESMhIxQ0_00012/divise_vc.mp3",
+                "Reference": "audio/ZJNESMhIxQ0_00012/gt.mp3"
             }
         },
         {
-            "Name": "SN7wO06Yz1E_00003; \u5bf9\u5e94\u6587\u672c: what is the abstraction",
+            "Name": "7qT3RpaBlJo_00002; \u5bf9\u5e94\u6587\u672c: Text:  ONE YOU NEED TO KNOW WHERE YOU ARE AND EXACTLY WHAT TIME IT IS",
             "TestID": "mos\u6d4b\u8bd5_10",
-            "Subtitle": "what is the abstraction",
+            "Subtitle": "Text:  ONE YOU NEED TO KNOW WHERE YOU ARE AND EXACTLY WHAT TIME IT IS",
             "Files": {
-                "433h_bigvgan": "audio/SN7wO06Yz1E_00003/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/SN7wO06Yz1E_00003/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/SN7wO06Yz1E_00003/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/SN7wO06Yz1E_00003/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/SN7wO06Yz1E_00003/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/SN7wO06Yz1E_00003/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/SN7wO06Yz1E_00003/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/SN7wO06Yz1E_00003/griffin_lim.wav",
-                "Reference": "audio/SN7wO06Yz1E_00003/gt.wav",
-                "30h_revise": "audio/SN7wO06Yz1E_00003/revise0203largeavhb-test_hifigan.wav"
+                "divise_vc": "audio/7qT3RpaBlJo_00002/divise_vc.mp3",
+                "unit_hifigan_vc": "audio/7qT3RpaBlJo_00002/unit_hifigan_vc.mp3",
+                "hifigan_vc": "audio/7qT3RpaBlJo_00002/hifigan_vc.mp3",
+                "divise_gf": "audio/7qT3RpaBlJo_00002/divise_gf.mp3",
+                "revise_vc": "audio/7qT3RpaBlJo_00002/revise_vc.mp3",
+                "Reference": "audio/7qT3RpaBlJo_00002/gt.mp3"
             }
         },
         {
-            "Name": "UAj1hsXp18c_00018; \u5bf9\u5e94\u6587\u672c: one woman shoots her face",
+            "Name": "rFpDK2KhAgw_00001; \u5bf9\u5e94\u6587\u672c: Text:  THEY HAVE SOCIAL MEANING",
             "TestID": "mos\u6d4b\u8bd5_11",
-            "Subtitle": "one woman shoots her face",
+            "Subtitle": "Text:  THEY HAVE SOCIAL MEANING",
             "Files": {
-                "433h_bigvgan": "audio/UAj1hsXp18c_00018/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/UAj1hsXp18c_00018/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/UAj1hsXp18c_00018/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/UAj1hsXp18c_00018/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/UAj1hsXp18c_00018/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/UAj1hsXp18c_00018/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/UAj1hsXp18c_00018/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/UAj1hsXp18c_00018/griffin_lim.wav",
-                "Reference": "audio/UAj1hsXp18c_00018/gt.wav",
-                "30h_revise": "audio/UAj1hsXp18c_00018/revise0203largeavhb-test_hifigan.wav"
+                "revise_vc": "audio/rFpDK2KhAgw_00001/revise_vc.mp3",
+                "divise_gf": "audio/rFpDK2KhAgw_00001/divise_gf.mp3",
+                "unit_hifigan_vc": "audio/rFpDK2KhAgw_00001/unit_hifigan_vc.mp3",
+                "divise_vc": "audio/rFpDK2KhAgw_00001/divise_vc.mp3",
+                "hifigan_vc": "audio/rFpDK2KhAgw_00001/hifigan_vc.mp3",
+                "Reference": "audio/rFpDK2KhAgw_00001/gt.mp3"
             }
         },
         {
-            "Name": "UAj1hsXp18c_00025; \u5bf9\u5e94\u6587\u672c: faced with absence",
+            "Name": "wmMrZyVANUo_00001; \u5bf9\u5e94\u6587\u672c: Text:  AND IN MANY CASES WE DON'T",
             "TestID": "mos\u6d4b\u8bd5_12",
-            "Subtitle": "faced with absence",
+            "Subtitle": "Text:  AND IN MANY CASES WE DON'T",
             "Files": {
-                "433h_bigvgan": "audio/UAj1hsXp18c_00025/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/UAj1hsXp18c_00025/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/UAj1hsXp18c_00025/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/UAj1hsXp18c_00025/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/UAj1hsXp18c_00025/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/UAj1hsXp18c_00025/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/UAj1hsXp18c_00025/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/UAj1hsXp18c_00025/griffin_lim.wav",
-                "Reference": "audio/UAj1hsXp18c_00025/gt.wav",
-                "30h_revise": "audio/UAj1hsXp18c_00025/revise0203largeavhb-test_hifigan.wav"
+                "hifigan_vc": "audio/wmMrZyVANUo_00001/hifigan_vc.mp3",
+                "unit_hifigan_vc": "audio/wmMrZyVANUo_00001/unit_hifigan_vc.mp3",
+                "divise_gf": "audio/wmMrZyVANUo_00001/divise_gf.mp3",
+                "revise_vc": "audio/wmMrZyVANUo_00001/revise_vc.mp3",
+                "divise_vc": "audio/wmMrZyVANUo_00001/divise_vc.mp3",
+                "Reference": "audio/wmMrZyVANUo_00001/gt.mp3"
             }
         },
         {
-            "Name": "UtBsl3j0YRQ_00006; \u5bf9\u5e94\u6587\u672c: how can we do it",
+            "Name": "SN7wO06Yz1E_00003; \u5bf9\u5e94\u6587\u672c: Text:  WHAT IS THE ABSTRACTION",
             "TestID": "mos\u6d4b\u8bd5_13",
-            "Subtitle": "how can we do it",
+            "Subtitle": "Text:  WHAT IS THE ABSTRACTION",
             "Files": {
-                "433h_bigvgan": "audio/UtBsl3j0YRQ_00006/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/UtBsl3j0YRQ_00006/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/UtBsl3j0YRQ_00006/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/UtBsl3j0YRQ_00006/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/UtBsl3j0YRQ_00006/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/UtBsl3j0YRQ_00006/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/UtBsl3j0YRQ_00006/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/UtBsl3j0YRQ_00006/griffin_lim.wav",
-                "Reference": "audio/UtBsl3j0YRQ_00006/gt.wav",
-                "30h_revise": "audio/UtBsl3j0YRQ_00006/revise0203largeavhb-test_hifigan.wav"
+                "divise_vc": "audio/SN7wO06Yz1E_00003/divise_vc.mp3",
+                "unit_hifigan_vc": "audio/SN7wO06Yz1E_00003/unit_hifigan_vc.mp3",
+                "divise_gf": "audio/SN7wO06Yz1E_00003/divise_gf.mp3",
+                "revise_vc": "audio/SN7wO06Yz1E_00003/revise_vc.mp3",
+                "hifigan_vc": "audio/SN7wO06Yz1E_00003/hifigan_vc.mp3",
+                "Reference": "audio/SN7wO06Yz1E_00003/gt.mp3"
             }
         },
         {
-            "Name": "vGX3FASrQq4_00001; \u5bf9\u5e94\u6587\u672c: thank you very much",
+            "Name": "J8FyHI00ELY_00002; \u5bf9\u5e94\u6587\u672c: Text:  MY DAD HAS ALZHEIMER'S DISEASE",
             "TestID": "mos\u6d4b\u8bd5_14",
-            "Subtitle": "thank you very much",
+            "Subtitle": "Text:  MY DAD HAS ALZHEIMER'S DISEASE",
             "Files": {
-                "433h_bigvgan": "audio/vGX3FASrQq4_00001/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/vGX3FASrQq4_00001/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/vGX3FASrQq4_00001/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/vGX3FASrQq4_00001/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/vGX3FASrQq4_00001/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/vGX3FASrQq4_00001/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/vGX3FASrQq4_00001/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/vGX3FASrQq4_00001/griffin_lim.wav",
-                "Reference": "audio/vGX3FASrQq4_00001/gt.wav",
-                "30h_revise": "audio/vGX3FASrQq4_00001/revise0203largeavhb-test_hifigan.wav"
+                "hifigan_vc": "audio/J8FyHI00ELY_00002/hifigan_vc.mp3",
+                "divise_vc": "audio/J8FyHI00ELY_00002/divise_vc.mp3",
+                "unit_hifigan_vc": "audio/J8FyHI00ELY_00002/unit_hifigan_vc.mp3",
+                "revise_vc": "audio/J8FyHI00ELY_00002/revise_vc.mp3",
+                "divise_gf": "audio/J8FyHI00ELY_00002/divise_gf.mp3",
+                "Reference": "audio/J8FyHI00ELY_00002/gt.mp3"
             }
         },
         {
-            "Name": "wmMrZyVANUo_00001; \u5bf9\u5e94\u6587\u672c: and in many cases we don't",
+            "Name": "UAj1hsXp18c_00025; \u5bf9\u5e94\u6587\u672c: Text:  FACED WITH ABSENCE",
             "TestID": "mos\u6d4b\u8bd5_15",
-            "Subtitle": "and in many cases we don't",
+            "Subtitle": "Text:  FACED WITH ABSENCE",
             "Files": {
-                "433h_bigvgan": "audio/wmMrZyVANUo_00001/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/wmMrZyVANUo_00001/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/wmMrZyVANUo_00001/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/wmMrZyVANUo_00001/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/wmMrZyVANUo_00001/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/wmMrZyVANUo_00001/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/wmMrZyVANUo_00001/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/wmMrZyVANUo_00001/griffin_lim.wav",
-                "Reference": "audio/wmMrZyVANUo_00001/gt.wav",
-                "30h_revise": "audio/wmMrZyVANUo_00001/revise0203largeavhb-test_hifigan.wav"
+                "hifigan_vc": "audio/UAj1hsXp18c_00025/hifigan_vc.mp3",
+                "divise_vc": "audio/UAj1hsXp18c_00025/divise_vc.mp3",
+                "unit_hifigan_vc": "audio/UAj1hsXp18c_00025/unit_hifigan_vc.mp3",
+                "divise_gf": "audio/UAj1hsXp18c_00025/divise_gf.mp3",
+                "revise_vc": "audio/UAj1hsXp18c_00025/revise_vc.mp3",
+                "Reference": "audio/UAj1hsXp18c_00025/gt.mp3"
             }
         },
         {
-            "Name": "x95nwilkaio_00003; \u5bf9\u5e94\u6587\u672c: this is just one face of a booming sex trade across the arab region",
+            "Name": "UtBsl3j0YRQ_00006; \u5bf9\u5e94\u6587\u672c: Text:  HOW CAN WE DO IT",
             "TestID": "mos\u6d4b\u8bd5_16",
-            "Subtitle": "this is just one face of a booming sex trade across the arab region",
+            "Subtitle": "Text:  HOW CAN WE DO IT",
             "Files": {
-                "433h_bigvgan": "audio/x95nwilkaio_00003/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/x95nwilkaio_00003/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/x95nwilkaio_00003/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/x95nwilkaio_00003/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/x95nwilkaio_00003/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/x95nwilkaio_00003/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/x95nwilkaio_00003/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/x95nwilkaio_00003/griffin_lim.wav",
-                "Reference": "audio/x95nwilkaio_00003/gt.wav",
-                "30h_revise": "audio/x95nwilkaio_00003/revise0203largeavhb-test_hifigan.wav"
+                "unit_hifigan_vc": "audio/UtBsl3j0YRQ_00006/unit_hifigan_vc.mp3",
+                "divise_gf": "audio/UtBsl3j0YRQ_00006/divise_gf.mp3",
+                "revise_vc": "audio/UtBsl3j0YRQ_00006/revise_vc.mp3",
+                "divise_vc": "audio/UtBsl3j0YRQ_00006/divise_vc.mp3",
+                "hifigan_vc": "audio/UtBsl3j0YRQ_00006/hifigan_vc.mp3",
+                "Reference": "audio/UtBsl3j0YRQ_00006/gt.mp3"
             }
         },
         {
-            "Name": "ZJNESMhIxQ0_00012; \u5bf9\u5e94\u6587\u672c: it worked for the oakland a's and it worked in the state of new jersey",
+            "Name": "6ra1MIKlYB0_00002; \u5bf9\u5e94\u6587\u672c: Text:  HOW ARE YOU",
             "TestID": "mos\u6d4b\u8bd5_17",
-            "Subtitle": "it worked for the oakland a's and it worked in the state of new jersey",
+            "Subtitle": "Text:  HOW ARE YOU",
             "Files": {
-                "433h_bigvgan": "audio/ZJNESMhIxQ0_00012/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/ZJNESMhIxQ0_00012/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/ZJNESMhIxQ0_00012/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/ZJNESMhIxQ0_00012/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/ZJNESMhIxQ0_00012/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/ZJNESMhIxQ0_00012/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/ZJNESMhIxQ0_00012/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/ZJNESMhIxQ0_00012/griffin_lim.wav",
-                "Reference": "audio/ZJNESMhIxQ0_00012/gt.wav",
-                "30h_revise": "audio/ZJNESMhIxQ0_00012/revise0203largeavhb-test_hifigan.wav"
+                "unit_hifigan_vc": "audio/6ra1MIKlYB0_00002/unit_hifigan_vc.mp3",
+                "divise_gf": "audio/6ra1MIKlYB0_00002/divise_gf.mp3",
+                "revise_vc": "audio/6ra1MIKlYB0_00002/revise_vc.mp3",
+                "hifigan_vc": "audio/6ra1MIKlYB0_00002/hifigan_vc.mp3",
+                "divise_vc": "audio/6ra1MIKlYB0_00002/divise_vc.mp3",
+                "Reference": "audio/6ra1MIKlYB0_00002/gt.mp3"
             }
         },
         {
-            "Name": "ZJNESMhIxQ0_00020; \u5bf9\u5e94\u6587\u672c: they're just waiting for their day in court",
+            "Name": "fxbCHn6gE3U_00005; \u5bf9\u5e94\u6587\u672c: Text:  SO PEOPLE HEAR ABOUT THIS STUDY AND THEY'RE LIKE GREAT IF I WANT TO GET BETTER AT MY JOB I JUST NEED TO UPGRADE MY BROWSER",
             "TestID": "mos\u6d4b\u8bd5_18",
-            "Subtitle": "they're just waiting for their day in court",
+            "Subtitle": "Text:  SO PEOPLE HEAR ABOUT THIS STUDY AND THEY'RE LIKE GREAT IF I WANT TO GET BETTER AT MY JOB I JUST NEED TO UPGRADE MY BROWSER",
             "Files": {
-                "433h_bigvgan": "audio/ZJNESMhIxQ0_00020/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/ZJNESMhIxQ0_00020/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/ZJNESMhIxQ0_00020/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/ZJNESMhIxQ0_00020/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/ZJNESMhIxQ0_00020/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/ZJNESMhIxQ0_00020/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/ZJNESMhIxQ0_00020/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/ZJNESMhIxQ0_00020/griffin_lim.wav",
-                "Reference": "audio/ZJNESMhIxQ0_00020/gt.wav",
-                "30h_revise": "audio/ZJNESMhIxQ0_00020/revise0203largeavhb-test_hifigan.wav"
+                "hifigan_vc": "audio/fxbCHn6gE3U_00005/hifigan_vc.mp3",
+                "divise_gf": "audio/fxbCHn6gE3U_00005/divise_gf.mp3",
+                "revise_vc": "audio/fxbCHn6gE3U_00005/revise_vc.mp3",
+                "unit_hifigan_vc": "audio/fxbCHn6gE3U_00005/unit_hifigan_vc.mp3",
+                "divise_vc": "audio/fxbCHn6gE3U_00005/divise_vc.mp3",
+                "Reference": "audio/fxbCHn6gE3U_00005/gt.mp3"
             }
         },
         {
-            "Name": "ZJNESMhIxQ0_00030; \u5bf9\u5e94\u6587\u672c: and when i talk to judges around the united states which i do all the time now they all say the same",
+            "Name": "ZJNESMhIxQ0_00030; \u5bf9\u5e94\u6587\u672c: Text:  AND WHEN I TALK TO JUDGES AROUND THE UNITED STATES WHICH I DO ALL THE TIME NOW THEY ALL SAY THE SAME",
             "TestID": "mos\u6d4b\u8bd5_19",
-            "Subtitle": "and when i talk to judges around the united states which i do all the time now they all say the same",
+            "Subtitle": "Text:  AND WHEN I TALK TO JUDGES AROUND THE UNITED STATES WHICH I DO ALL THE TIME NOW THEY ALL SAY THE SAME",
             "Files": {
-                "433h_bigvgan": "audio/ZJNESMhIxQ0_00030/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/ZJNESMhIxQ0_00030/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/ZJNESMhIxQ0_00030/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/ZJNESMhIxQ0_00030/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/ZJNESMhIxQ0_00030/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/ZJNESMhIxQ0_00030/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/ZJNESMhIxQ0_00030/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/ZJNESMhIxQ0_00030/griffin_lim.wav",
-                "Reference": "audio/ZJNESMhIxQ0_00030/gt.wav",
-                "30h_revise": "audio/ZJNESMhIxQ0_00030/revise0203largeavhb-test_hifigan.wav"
+                "unit_hifigan_vc": "audio/ZJNESMhIxQ0_00030/unit_hifigan_vc.mp3",
+                "divise_vc": "audio/ZJNESMhIxQ0_00030/divise_vc.mp3",
+                "hifigan_vc": "audio/ZJNESMhIxQ0_00030/hifigan_vc.mp3",
+                "revise_vc": "audio/ZJNESMhIxQ0_00030/revise_vc.mp3",
+                "divise_gf": "audio/ZJNESMhIxQ0_00030/divise_gf.mp3",
+                "Reference": "audio/ZJNESMhIxQ0_00030/gt.mp3"
             }
         },
         {
-            "Name": "ZnCSUBmeRxw_00006; \u5bf9\u5e94\u6587\u672c: and that's exactly what that is",
+            "Name": "1US4jjWtua8_00004; \u5bf9\u5e94\u6587\u672c: Text:  IT'S NOT OPTIONAL",
             "TestID": "mos\u6d4b\u8bd5_20",
-            "Subtitle": "and that's exactly what that is",
+            "Subtitle": "Text:  IT'S NOT OPTIONAL",
             "Files": {
-                "433h_bigvgan": "audio/ZnCSUBmeRxw_00006/433h_8x-test_bigvgan.wav",
-                "433h_hifigan": "audio/ZnCSUBmeRxw_00006/433h_8x-test_hifigan.wav",
-                "433h_pwg": "audio/ZnCSUBmeRxw_00006/433h_8x-test_pwg.wav",
-                "433h_revise": "audio/ZnCSUBmeRxw_00006/433h_8x_upsampling-test_hifigan.wav",
-                "30h_bigvgan": "audio/ZnCSUBmeRxw_00006/baseline0203largeavhb-test_bigvgan.wav",
-                "30h_hifigan": "audio/ZnCSUBmeRxw_00006/baseline0203largeavhb-test_hifigan.wav",
-                "30h_pwg": "audio/ZnCSUBmeRxw_00006/baseline0203largeavhb-test_pwg.wav",
-                "GriffinLim": "audio/ZnCSUBmeRxw_00006/griffin_lim.wav",
-                "Reference": "audio/ZnCSUBmeRxw_00006/gt.wav",
-                "30h_revise": "audio/ZnCSUBmeRxw_00006/revise0203largeavhb-test_hifigan.wav"
+                "divise_vc": "audio/1US4jjWtua8_00004/divise_vc.mp3",
+                "hifigan_vc": "audio/1US4jjWtua8_00004/hifigan_vc.mp3",
+                "unit_hifigan_vc": "audio/1US4jjWtua8_00004/unit_hifigan_vc.mp3",
+                "revise_vc": "audio/1US4jjWtua8_00004/revise_vc.mp3",
+                "divise_gf": "audio/1US4jjWtua8_00004/divise_gf.mp3",
+                "Reference": "audio/1US4jjWtua8_00004/gt.mp3"
             }
         }
     ]
