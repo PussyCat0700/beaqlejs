@@ -16,17 +16,17 @@ file_paths = {
 
 # Destination directory
 output_dir = "./audio"
-ref_dir = './audio_feb'
+ref_dir = file_paths["gt"]
 os.makedirs(output_dir, exist_ok=True)
 
 # Function to copy and overwrite files
 def copy_and_overwrite_files(file_paths, output_dir):
     for subdir in os.listdir(ref_dir):
-        path_old_feb = os.path.join(ref_dir, subdir)
-        if os.path.isdir(path_old_feb):
+        sampled_test_subdir = os.path.join(ref_dir, subdir)
+        if os.path.isdir(sampled_test_subdir):
             # Extract the identifier (e.g., 00002 from 6ra1MIKlYB0_00002)
-            target_file_no_prefix = os.path.join(output_dir, subdir)
-            subdir, identifier = subdir.split('_')
+            target_dir = os.path.join(ref_dir, subdir)
+            identifier = os.listdir(target_dir)[0].split('.')[0]  # The first sample
             for name, path in file_paths.items():
                 # Form the source file name
                 source_file_no_prefix = os.path.join(path, subdir, identifier)
@@ -35,19 +35,16 @@ def copy_and_overwrite_files(file_paths, output_dir):
                     postfixes.append(".flac")
                     postfixes.append(".mp4")
                     postfixes.append(".txt")
-                    postfixes.append(".png")
                 elif name == "gt_frames":
                     postfixes.append(".jpg")
                 else:
                     postfixes.append("_vc.mp3")
                     postfixes.append("_vc.mp4")
-                    if name == "divise":
-                        postfixes.append("_gf.mp3")
-                        postfixes.append("_gf.mp4")
                 for postfix in postfixes:
                     source_file_name = source_file_no_prefix+f"{postfix}"
                     if postfix == ".flac":
                         postfix = ".mp3"
+                    target_file_no_prefix = os.path.join(output_dir, subdir)+"_"+identifier
                     target_file_name = os.path.join(target_file_no_prefix, f"{name}{postfix}")
                     os.makedirs(target_file_no_prefix, exist_ok=True)
                     # Copy and overwrite the file
