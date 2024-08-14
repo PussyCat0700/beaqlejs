@@ -1,4 +1,5 @@
 import json
+import math
 import os
 import csv
 import numpy as np
@@ -84,8 +85,8 @@ CsvFile.close()
 
 # plot and evaluate every single test set, output results to a csv file
 numTests = sum(1 for dict in ResJSONList[0] if 'TestID' in dict)
-plotsX = np.ceil(np.sqrt(numTests))
-plotsY = np.ceil(numTests / plotsX)
+plotsX = math.ceil(np.sqrt(numTests))
+plotsY = math.ceil(numTests / plotsX)
 plotInd = 0
 for testID in sorted(RatingsDict, key=lambda s: s.lower()):
 
