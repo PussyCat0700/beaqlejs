@@ -7,7 +7,8 @@ file_paths = {
     "hifigan":"/home/yfliu/16khifigan/mel/test_samples/",
     "divise":"/data1/yfliu/outputs/baseline/433h_8x_fixed/test_samples/",
     "revise":"/data1/yfliu/outputs/hifigandev/output433h/revise/433h_upsample/test_samples/",
-    "gt": "/data1/yfliu/lrs3/test/"
+    "gt": "/data1/yfliu/lrs3/test/",
+    "gt_frames": "/data1/yfliu/lrs3/frames/test/",
 }
 # an example is FxtSMZKMdes
 
@@ -30,17 +31,19 @@ def copy_and_overwrite_files(file_paths, output_dir):
                 # Form the source file name
                 source_file_no_prefix = os.path.join(path, subdir, identifier)
                 postfixes = []
-                if name != "gt":
+                if name == "gt":
+                    postfixes.append(".flac")
+                    postfixes.append(".mp4")
+                    postfixes.append(".txt")
+                    postfixes.append(".png")
+                elif name == "gt_frames":
+                    postfixes.append(".jpg")
+                else:
                     postfixes.append("_vc.mp3")
                     postfixes.append("_vc.mp4")
                     if name == "divise":
                         postfixes.append("_gf.mp3")
                         postfixes.append("_gf.mp4")
-                else:
-                    postfixes.append(".flac")
-                    postfixes.append(".mp4")
-                    postfixes.append(".txt")
-                    postfixes.append(".png")
                 for postfix in postfixes:
                     source_file_name = source_file_no_prefix+f"{postfix}"
                     if postfix == ".flac":

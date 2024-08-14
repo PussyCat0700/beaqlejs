@@ -659,6 +659,10 @@ $.extend({ alert: function (message, title) {
         $('#TestHeading').html(this.TestConfig.Testsets[TestIdx].Name + " (" + (this.TestState.CurrentTest+1) + " of " + this.TestState.TestSequence.length + ")");
         $('#TestHeading').show();
 
+        // set current picture (avatar of speaker)
+        $('#TestImage').html('<img src="' + this.TestConfig.Testsets[TestIdx].Figure + '" alt="Speaker Image" />');
+        $('#TestImage').show();
+
         // hide everything instead of load animation
         $('#TestIntroduction').hide();
         $('#TestControls').hide();
