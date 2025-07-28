@@ -9,7 +9,7 @@
     // subfolder for results, folder has to exist and needs proper write permissions
     // --->
     date_default_timezone_set('Asia/Shanghai');
-    $results_prefix = "/home/yfliu/simbeaqlejs/results/";
+    $results_prefix = "";
     // <---
 
     // bypass any (proxy) caching
